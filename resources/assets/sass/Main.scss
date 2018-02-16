@@ -1,0 +1,17 @@
+.Container {
+    display: flex;
+}
+.Side__panel {
+    background: #22AFE7;
+    color: white;
+    min-width: 280px;
+    height: 100vh;
+    padding: 20px;
+    border-right: 5px solid #fff;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

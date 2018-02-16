@@ -1,0 +1,41 @@
+
+// // Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// // Variables
+@import "variables";
+
+// // Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "Main.scss";
+@import "NavMenu.scss";
+@import "Content.scss";
+.Footer {
+    text-align: center;
+    margin: 1vh;
+    font-weight: 400;
+}
+.Feedback__list {
+    cursor: pointer;
+}
+.TextInfo {
+    display: flex;
+}
+.TextInfo .Label {
+    margin: 0 8px 0 8px;
+}
+.Label {
+    font-weight: bold;
+    min-width: 100px;
+    margin: 8px;
+}
+.Message {
+    padding: 10px;
+    background: #333;
+    color: #ddd;
+    border-radius: 10px;
+}
+.Feedback__list.accepted {
+    color: rgb(87, 143, 3);
+}

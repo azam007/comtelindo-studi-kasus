@@ -1,0 +1,6 @@
+export const LOAD_FEEDBACK_SUCCESS = 'load_feedback_success'
+export const LOAD_FEEDBACK_DETAIL_SUCCESS = 'load_feedback_detail_success'
+export const LOAD_FEEDBACK_FAIL = 'load_feedback_fail'
+export const ACCEPT_SUCCESS = 'ACCEPT_SUCCESS'
+export const DELETE_SUCCESS = 'DELETE_SUCCESS'
+export const INSERT_SUCCESS = 'INSERT_SUCCESS'
