@@ -68782,6 +68782,21 @@ var ListFeedback = function (_React$Component) {
             console.log('feedback >>>...', this.props.feedback);
             var Tbody = function Tbody(props) {
                 var tr = [];
+                if (!props.data) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'tbody',
+                        null,
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                            'tr',
+                            null,
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                                'td',
+                                { colSpan: 4 },
+                                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('span', { className: "fa fa-spinner fa-spin" })
+                            )
+                        )
+                    );
+                }
                 __WEBPACK_IMPORTED_MODULE_3_lodash___default.a.map(props.data, function (item, index) {
                     var accept = item.status === 1 ? ' accepted' : '';
                     tr.push(__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(

@@ -7,10 +7,10 @@
 
 // // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "Main";
+@import "NavMenu";
+@import "Content";
 
-@import "Main.scss";
-@import "NavMenu.scss";
-@import "Content.scss";
 .Footer {
     text-align: center;
     margin: 1vh;

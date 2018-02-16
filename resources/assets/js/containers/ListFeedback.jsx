@@ -43,6 +43,9 @@ class ListFeedback extends React.Component {
         console.log('feedback >>>...',this.props.feedback);
         const Tbody = (props) => {            
             let tr = [];
+            if(!props.data){
+                return <tbody><tr><td colSpan={4}><span className={"fa fa-spinner fa-spin"}/></td></tr></tbody>
+            }
             _.map(props.data, (item, index) => {
                 let accept = item.status === 1 ? ' accepted' : '' 
                 tr.push(
